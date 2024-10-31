@@ -1,19 +1,19 @@
-// ²Ä¤@³¡¤À - ¦Û°Ê¸õÂà
+// ç¬¬ä¸€éƒ¨åˆ† - è‡ªå‹•è·³è½‰
 (function() {
     const currentUrl = window.location.href;
 
-    if (currentUrl === "https://example.com") {
+    if (currentUrl === "https://sso.ntpc.edu.tw") {
         setTimeout(() => {
-            window.location.href = "https://example2.com";
-        }, 3000); // 3¬í«á¸õÂà
-    } else if (currentUrl.startsWith("https://example2.com")) {
+            window.location.href = "https://pts.ntpc.edu.tw/oauth/ntpc_entry_point";
+        }, 3000); // 3ç§’å¾Œè·³è½‰
+    } else if (currentUrl.startsWith("https://pts.ntpc.edu.tw/#")) {
         setTimeout(() => {
-            window.location.href = "https://example3.com";
-        }, 3000); // 3¬í«á¸õÂà
+            window.location.href = "https://pts.ntpc.edu.tw/private/service/goto/service/100/100";
+        }, 3000); // 3ç§’å¾Œè·³è½‰
     }
 })();
 
-// ²Ä¤G³¡¤À - alwaysOnFocus
+// ç¬¬äºŒéƒ¨åˆ† - alwaysOnFocus
 (function() {
     unsafeWindow.onblur = null;
     unsafeWindow.blurred = false;
@@ -21,7 +21,7 @@
     unsafeWindow.document.hasFocus = () => true;
     unsafeWindow.window.onFocus = () => true;
 
-    // ªý¤î visibility ¬ÛÃöªºÄÝ©Ê
+    // é˜»æ­¢ visibility ç›¸é—œçš„å±¬æ€§
     ["hidden", "mozHidden", "msHidden", "webkitHidden"].forEach(prop_name => {
         Object.defineProperty(document, prop_name, { value: false });
     });
@@ -31,7 +31,7 @@
 
     unsafeWindow.document.onvisibilitychange = undefined;
 
-    // ³]©w¨Æ¥óÄdºI
+    // è¨­å®šäº‹ä»¶æ””æˆª
     const blurWhitelist = [
         HTMLInputElement,
         HTMLAnchorElement,
