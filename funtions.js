@@ -2,7 +2,7 @@
 (function() {
     const currentUrl = window.location.href;
 
-    if (currentUrl === "https://sso.ntpc.edu.tw") {
+    if (currentUrl === "https://sso.ntpc.edu.tw/") {
         setTimeout(() => {
             window.location.href = "https://pts.ntpc.edu.tw/oauth/ntpc_entry_point";
         }, 3000); // 3秒後跳轉
