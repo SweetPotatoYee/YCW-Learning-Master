@@ -1,5 +1,7 @@
+alert("loaded");
 // 第一部分 - 自動跳轉
 (function() {
+    alert("loaded1");
     const currentUrl = window.location.href;
 
     if (currentUrl === "https://sso.ntpc.edu.tw") {
@@ -15,6 +17,7 @@
 
 // 第二部分 - alwaysOnFocus
 (function() {
+    alert("loaded2");
     unsafeWindow.onblur = null;
     unsafeWindow.blurred = false;
 
