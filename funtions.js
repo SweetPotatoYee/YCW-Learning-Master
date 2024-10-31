@@ -5,11 +5,11 @@
     if (currentUrl === "https://sso.ntpc.edu.tw/") {
         setTimeout(() => {
             window.location.href = "https://pts.ntpc.edu.tw/oauth/ntpc_entry_point";
-        }, 3000); // 3秒後跳轉
+        }, 1000);
     } else if (currentUrl.startsWith("https://pts.ntpc.edu.tw/#")) {
         setTimeout(() => {
             window.location.href = "https://pts.ntpc.edu.tw/private/service/goto/service/100/100";
-        }, 3000); // 3秒後跳轉
+        }, 1000);
     }
 })();
 
