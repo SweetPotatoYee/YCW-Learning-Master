@@ -13,14 +13,8 @@
 (function () {
     const currentUrl = window.location.href;
     if (currentUrl.startsWith("https://adl.edu.tw/modules_new.php")) {
-        const focusListeners = [];
-        const focusListener = function (event) {
-            console.log('Element focused:', event.target);
-        };
-        document.querySelector('input').addEventListener('focus', focusListener);
-        focusListeners.push(focusListener);
-        focusListeners.forEach(listener => {
-            document.querySelector('input').removeEventListener('focus', listener);
+        $(window).off('blur');
+        bIsBlur = false;
         });
     }
 })();
