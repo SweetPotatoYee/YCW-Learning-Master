@@ -1,3 +1,4 @@
+console.log("YCW Learning Started")
 // 第一部分 - 自動跳轉
 (function () {
     const currentUrl = window.location.href;
