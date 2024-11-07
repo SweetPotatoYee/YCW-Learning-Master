@@ -20,13 +20,14 @@
 
 1. 在警告視窗中，點擊 **"其他資訊"**。
    
-   ![點擊其他資訊](IMG1)
+   ![點擊其他資訊](https://github.com/SweetPotatoYee/YCW-Learning-Master/blob/main/images/screenshot1.png?raw=true)
 
 2. 然後，點擊 **"仍要執行"** 以繼續安裝過程。
 
-   ![點擊仍要執行](IMG2)
+   ![點擊仍要執行](https://github.com/SweetPotatoYee/YCW-Learning-Master/blob/main/images/screenshot2.png?raw=true)
 
 
+### 下載程式
 *安裝之前請先參閱[防毒軟體資訊](#防毒軟體資訊)選擇您的安裝方式*
 
 #### 1. 首選 | 可攜式ZIP壓縮檔（適用於防毒軟體誤報的情況）
