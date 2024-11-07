@@ -66,17 +66,17 @@
   - Skyhigh (SWG)
   - Microsoft (Windows作業系統預設)
      
-  *如果您不知道您的防毒軟體供應商，通常是 Microsoft ，請使用可攜式ZIP壓縮檔*
-  
   如果您的防毒軟體屬於上述類型，請選擇 **可攜式ZIP壓縮檔** 方式，並手動執行程式。
-
+  
+  如果您不知道您的防毒軟體供應商，通常是 Microsoft ，請使用可攜式ZIP壓縮檔
+  
   如果您使用其他防毒軟體，且未列入上述名單，您可以使用EXE安裝程式進行安裝。
 ---
 
 ## 聯絡我們
 如果您有任何問題或建議，請聯繫我們：
 
-- 電子郵件：[support@yourdomain.com](mailto:sweetpotatoyee@proton.me)
+- 電子郵件：[sweetpotatoyee@proton.me](mailto:sweetpotatoyee@proton.me)
 - GitHub Issues: [GitHub Issue Tracker](https://github.com/SweetPotatoYee/YCW-Learning-Master/issues/new)
 
 感謝您的理解與支持！
