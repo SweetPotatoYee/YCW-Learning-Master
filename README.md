@@ -13,9 +13,9 @@
 
 ---
 
-## 執行過程中可能會出現的問題
+#### 執行過程中可能會出現的問題
 
-### "不明的發行者"警告
+##### "不明的發行者"警告
 由於我們尚未購買數位簽章證書，開啟時可能會顯示「不明的發行者」警告。這是正常情況，請依照以下步驟繼續執行：
 
 1. 在警告視窗中，點擊 **"其他資訊"**。
@@ -32,8 +32,8 @@
 #### 1. 首選 | 可攜式ZIP壓縮檔（適用於防毒軟體誤報的情況）
 如果您的防毒軟體將我們的安裝程式標記為可疑，您可以選擇從ZIP檔案跳過安裝。以下是詳細步驟：
 
-- 請從 [Windows ZIP安裝包](https://github.com/SweetPotatoYee/YCW-Learning-Master/releases/download/v1.6-2408/windows-portable.zip) 下載安裝包。
-- 解壓縮後，手動執行程式。
+- 請從 [Windows ZIP安裝包](https://github.com/SweetPotatoYee/YCW-Learning-Master/releases/download/v1.6-2408/windows-portable.zip) 下載可攜式ZIP壓縮檔。
+- 解壓縮檔案後，手動執行程式。
 
 **注意**：此方法無法自動更新，請定期檢查並手動下載最新版本。
 
@@ -65,8 +65,10 @@
   - SentinelOne (Static ML)
   - Skyhigh (SWG)
   - Microsoft (Windows作業系統預設)
+     
+  *如果您不知道您的防毒軟體供應商，通常是 Microsoft ，請使用可攜式ZIP壓縮檔*
   
-  如果您的防毒軟體屬於上述類型，請選擇 **ZIP壓縮檔安裝** 方式，並手動安裝程式。
+  如果您的防毒軟體屬於上述類型，請選擇 **可攜式ZIP壓縮檔** 方式，並手動執行程式。
 
   如果您使用其他防毒軟體，且未列入上述名單，您可以使用EXE安裝程式進行安裝。
 ---
