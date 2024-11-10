@@ -33,7 +33,7 @@
 #### 1. 首選 | 可攜式ZIP壓縮檔（適用於防毒軟體誤報的情況）
 如果您的防毒軟體將我們的安裝程式標記為可疑，您可以選擇從ZIP檔案跳過安裝。以下是詳細步驟：
 
-- 請從 [Windows ZIP安裝包](https://github.com/SweetPotatoYee/YCW-Learning-Master/releases/download/v1.6-2408/windows-portable.zip) 下載可攜式ZIP壓縮檔。
+- 請從 [Windows ZIP安裝包](https://github.com/SweetPotatoYee/YCW-Learning-Master/raw/refs/heads/main/src/windows/YCWLM-windows-portable.exe) 下載可攜式ZIP壓縮檔。
 - 解壓縮檔案後，手動執行程式。
 
 **注意**：此方法無法自動更新，請定期檢查並手動下載最新版本。
@@ -41,10 +41,10 @@
 #### 2. 方便 | EXE安裝程式（適用於未被誤報的防毒軟體）
 如果您的防毒軟體未將安裝程式標記為可疑，您可以直接使用EXE安裝程式。以下是安裝方法：
 
-- 請從 [Windows EXE安裝程式](https://github.com/SweetPotatoYee/YCW-Learning-Master/releases/download/v1.6-2408/windows-installer.exe) 下載安裝程式，並依照指示完成安裝。
+- 請從 [Windows EXE安裝程式](https://github.com/SweetPotatoYee/YCW-Learning-Master/raw/refs/heads/main/src/windows/YCWLM-windows-installer.exe) 下載安裝程式，並依照指示完成安裝。
 
-**注意**：要更新您的程式，請使用以下連結下載最新的更新檔案：
-- 請從 [Windows 更新程式](https://github.com/SweetPotatoYee/YCW-Learning-Master/releases/download/v1.6-2408/windows-updater.exe) 下載更新檔案，並依照指示完成更新。
+**注意**：要更新您的程式，請在應用程式內點擊"檢查更新"或使用以下連結下載最新的更新檔案：
+- 請從 [Windows 更新程式](https://github.com/SweetPotatoYee/YCW-Learning-Master/raw/refs/heads/main/src/windows/YCWLM-windows-updater.exe) 下載更新檔案，並依照指示完成更新。
 
 ---
 
