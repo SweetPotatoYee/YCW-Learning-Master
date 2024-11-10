@@ -10,9 +10,15 @@
 
 (function() {
     'use strict';
-    window.onload = function() {
-        $(window).off('blur');
-        bIsBlur = false;
-    }
+    function waitForJQuery() {
+        if (typeof $ !== 'undefined') {
+            $(window).off('blur');
+            bIsBlur = false;
+        } else {
+          setTimeout(waitForJQuery, 100);
+        }
+      }
+      
+      waitForJQuery();
 
 })();
