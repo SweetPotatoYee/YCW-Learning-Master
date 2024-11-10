@@ -15,7 +15,8 @@
             $(window).off('blur');
             bIsBlur = false;
         } else {
-          setTimeout(waitForJQuery, 100);
+            console.log("JQuery Where Are You?")
+            setTimeout(waitForJQuery, 100);
         }
       }
       
