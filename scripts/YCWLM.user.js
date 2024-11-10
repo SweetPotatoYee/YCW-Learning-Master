@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         因材網學習大師
 // @namespace    SwetPotatoYee
-// @version      1.0
+// @version      1.1
 // @description  後臺繼續播放教學影片
 // @author       SweetPotatoYee
 // @match        https://adl.edu.tw/modules_new.php*
@@ -10,9 +10,7 @@
 
 (function() {
     'use strict';
-
-    const currentUrl = window.location.href;
-    if (currentUrl.startsWith("https://adl.edu.tw/modules_new.php")) {
+    window.onload = function() {
         $(window).off('blur');
         bIsBlur = false;
     }
