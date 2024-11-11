@@ -33,7 +33,7 @@
 #### 1. 首選 | 可攜式ZIP壓縮檔（適用於防毒軟體誤報的情況）
 如果您的防毒軟體將我們的安裝程式標記為可疑，您可以選擇從ZIP檔案跳過安裝。以下是詳細步驟：
 
-- 請從 [Windows ZIP安裝包](https://github.com/SweetPotatoYee/YCW-Learning-Master/raw/refs/heads/main/src/windows/YCWLM-windows-portable.exe) 下載可攜式ZIP壓縮檔。
+- 請從 [Windows ZIP安裝包](https://github.com/SweetPotatoYee/YCW-Learning-Master/raw/refs/heads/main/src/windows/YCWLM-windows-portable.zip) 下載可攜式ZIP壓縮檔。
 - 解壓縮檔案後，手動執行程式。
 
 **注意**：此方法無法自動更新，請定期檢查並手動下載最新版本。
