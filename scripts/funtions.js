@@ -1,5 +1,5 @@
 console.log("YCW Learning Assistant Started");
-window.chrome.webview.postMessage('1');
+window.chrome.webview.postMessage("1");
 // 第一部分 - 自動跳轉
 (function () {
     const currentUrl = window.location.href;
