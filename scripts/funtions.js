@@ -1,4 +1,5 @@
 console.log("YCW Learning Assistant Started");
+window.chrome.webview.postMessage('1');
 // 第一部分 - 自動跳轉
 (function () {
     const currentUrl = window.location.href;
@@ -9,7 +10,7 @@ console.log("YCW Learning Assistant Started");
     }
 })();
 
-// 第二部分 - alwaysOnFocus
+// 第二部分 - 關閉跳離偵測
 (function () {
     const currentUrl = window.location.href;
     if (currentUrl.startsWith("https://adl.edu.tw/modules_new.php")) {
