@@ -74,10 +74,4 @@
   如果您使用其他防毒軟體，且未列入上述名單，您可以使用EXE安裝程式進行安裝。
 ---
 
-## 聯絡我們
-如果您有任何問題或建議，請聯繫我們：
-
-- 電子郵件：[sweetpotatoyee@proton.me](mailto:sweetpotatoyee@proton.me)
-- GitHub Issues: [GitHub Issue Tracker](https://github.com/SweetPotatoYee/YCW-Learning-Master/issues/new)
-
-感謝您的理解與支持！
+## 已經不在提供任何更新!!
